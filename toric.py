@@ -9,7 +9,7 @@ def main():
     parser = argparse.ArgumentParser(
                         prog='toric.py',
                         description='Classification of toric knot mosaics, and generation of torus toric mosaics using 1-braid algorithm',
-                        epilog='https://github.com/margekk/toric-mosaics-py')
+                        epilog='https://github.com/margekk/toric-mosaics-2025')
 
     parser.add_argument('-i', '--images', help='Print image(s)', action='store_true')
     parser.add_argument('-s', '--string', metavar='<mosaic string>',help='Determine knot type from string')
